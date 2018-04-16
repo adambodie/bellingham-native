@@ -21,14 +21,15 @@ const styles = StyleSheet.create({
     image: {
         flex:1,
         width: imageWidth,
-        height: imageHeight,
+        height: imageHeight
     },
 
     title: {
         fontSize: 18,
         fontWeight: 'bold',
         textAlign: 'center',
-        margin: 10
+        margin: 10,
+        color: 'white'
     }
 });
 
