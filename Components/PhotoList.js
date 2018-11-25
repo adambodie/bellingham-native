@@ -5,7 +5,7 @@ const PhotoList = props => {
 	let results = props.data;
 	let photos = results.map((x, index) =>
 		<View key={x.id}>
-			<Photo farm={x.farm} server={x.server} id={x.id} secret={x.secret} title={x.title} index={index + 1}/>
+			<Photo id={x.id} title={x.title} index={index + 1}/>
 		</View>
 	)
 	return(

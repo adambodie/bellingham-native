@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, Image, StyleSheet, Dimensions } from 'react-native';
 const Photo = props => (
   <View style={styles.container}>
-  <Image source={{uri: `https://farm${props.farm}.staticflickr.com/${props.server}/${props.id}_${props.secret}_z.jpg`}} style={styles.image} resizeMode="contain"  />
+  <Image source={{uri: `https://s3-us-west-2.amazonaws.com/bellingham.bodiewebdesign.com/static/images/${props.id}_o.jpg`}} style={styles.image} resizeMode="contain"  />
         <Text style={styles.title}>{props.title}</Text>
         <Text>{props.index} of 250</Text>
   </View>
